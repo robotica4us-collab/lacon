@@ -2,5 +2,5 @@
   "name": "lacon",
   "private": true,
   "type": "module",
-  "description": "Lacon: a reversible English script that spends the cheapest UTF-8 bytes first."
+  "description": "Two reversible English scripts: Lacon spends the fewest UTF-8 bytes, Pith spends the fewest o200k tokens."
 }
