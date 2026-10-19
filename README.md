@@ -12,6 +12,10 @@ The sentence is “The universe is under no obligation to make sense to you.” 
 
 You cannot win both scores at once. A character that is cheap in UTF-8 is often rare to the tokenizer, so it splits into several tokens. A piece the tokenizer already bills as one token is often a whole word, so it costs more bytes.
 
+## Android
+
+[Lacon.apk](https://github.com/robotica4us-collab/lacon/releases/download/v1.0/Lacon.apk) on the [v1.0 release](https://github.com/robotica4us-collab/lacon/releases/tag/v1.0). Open it on the phone and allow installs from this source if Android asks. It runs offline. The model list counts the same line on GPT-5 / 4o / gpt-oss, GPT-4 / 3.5, Davinci / Codex, and GPT-2 / GPT-3. Pith only shrinks the first of those.
+
 ## Lacon
 
 One mark stands for one common word. Spaces, digits, and common punctuation stay themselves. The cheapest remaining one-byte characters go to the most common words. The next words take a two-byte letter. The rest of a 12,000-word list take one CJK character. Anything missing is spelled between `~` and `` ` ``.
