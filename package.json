@@ -1,0 +1,6 @@
+{
+  "name": "lacon",
+  "private": true,
+  "type": "module",
+  "description": "Lacon: a reversible English script that spends the cheapest UTF-8 bytes first."
+}
